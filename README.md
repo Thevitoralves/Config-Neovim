@@ -1,5 +1,5 @@
 # 💤 Neovim de preguiçoso
 
-[(neovim.png)]
+[Imagem(neovim.png)]
 
 Essas são minhas configs, usando a distro https://lazyvim.org/
