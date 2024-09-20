@@ -1,4 +1,4 @@
-# 💤 Neovim de preguiçoso
+# 💤 Neovim
 
 ![Texto Alternativo](neovim.png)
 Essas são minhas configs, usando a distro https://lazyvim.org/
