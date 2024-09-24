@@ -26,3 +26,8 @@ vim.api.nvim_set_keymap("n", "<C-r>", "<C-r>", { noremap = true, silent = true }
 vim.api.nvim_set_keymap("v", "<C-c>", '"+y', { noremap = true, silent = true })
 -- Colar do clipboard
 vim.api.nvim_set_keymap("n", "<C-v>", '"+p', { noremap = true, silent = true })
+-- Desabilitar atalho
+vim.api.nvim_set_keymap("n", "<C-Right>", "<Nop>", { noremap = true, silent = true })
+-- Ctrl + Seta para Redimensionar o NeoTree
+vim.api.nvim_set_keymap("n", "<C-Left>", ":vertical resize -2<CR>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("n", "<C-Right>", ":vertical resize +2<CR>", { noremap = true, silent = true })

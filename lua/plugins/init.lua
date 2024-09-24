@@ -1,11 +1,9 @@
 return {
   -- Outros plugins já podem estar aqui
-
-  -- Adicionando o Alpha-nvim
   {
-    require("lspconfig").pyright.setup({}),
+    require("lspconfig").tsserver.setup({}),
   },
-  --
+  -- Adicionando o Alpha-nvim (dashboard)
   {
     "goolord/alpha-nvim",
     config = function()
