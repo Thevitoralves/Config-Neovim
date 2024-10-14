@@ -12,12 +12,6 @@ vim.api.nvim_set_keymap("n", "<C-q>", ":wq<CR>", { noremap = true, silent = true
 vim.api.nvim_set_keymap("n", "<C-p>", ":Telescope find_files<CR>", { noremap = true, silent = true })
 -- Abrir o Telescope para buscar texto
 vim.api.nvim_set_keymap("n", "<C-f>", ":Telescope live_grep<CR>", { noremap = true, silent = true })
--- Ir para o buffer anterior
-vim.api.nvim_set_keymap("n", "<C-Tab>", ":bnext<CR>", { noremap = true, silent = true })
--- Ir para o buffer seguinte
-vim.api.nvim_set_keymap("n", "<C-S-Tab>", ":bprevious<CR>", { noremap = true, silent = true })
--- Fechar buffer
-vim.api.nvim_set_keymap("n", "<C-w>", ":bd<CR>", { noremap = true, silent = true })
 -- Desfazer
 vim.api.nvim_set_keymap("n", "<C-u>", "u", { noremap = true, silent = true })
 -- Refazer

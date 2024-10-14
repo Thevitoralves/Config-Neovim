@@ -4,8 +4,14 @@
 
 vim.cmd([[set guicursor= ]])
 
---vim.opt.relativenumber = false
---vim.opt.number = true
+-- Desativa smartindent para evitar indentação excessiva
+vim.opt.smartindent = false
+vim.opt.autoindent = true -- Mantém a indentação da linha anterior
+
+-- Configura o número de espaços ou tabs
+vim.opt.tabstop = 2 -- Define 2 espaços por tab
+vim.opt.shiftwidth = 2 -- Usa 2 espaços para cada nível de indentação
+vim.opt.expandtab = true -- Converte tabs em espaços
 
 vim.cmd([[ 
   set conceallevel=0
